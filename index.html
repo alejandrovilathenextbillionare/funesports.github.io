@@ -2,11 +2,150 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Funesports</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUNE SPORTS</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>🔥 Funesports</h1>
-  <p>Mi web ya está online con GitHub Pages.</p>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">FUNE SPORTS</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#proyecto">Proyecto</a></li>
+          <li><a href="#torneos">Torneos</a></li>
+          <li><a href="#patrocinadores">Patrocinadores</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <a href="#registro" class="btn-primary">Regístrate</a>
+        <div class="lang-selector">
+          <a href="index.html">ES</a> | <a href="en/index.html">EN</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content container">
+      <h2>Deporte que impulsa el cambio social</h2>
+      <p>Organizamos torneos deportivos con impacto social, conectando comunidad, valores y acción.</p>
+      <div class="hero-buttons">
+        <a href="#registro" class="btn-primary">Regístrate</a>
+        <a href="#torneos" class="btn-secondary">Ver torneos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTO -->
+  <section id="proyecto" class="section">
+    <div class="container">
+      <h2>Qué es FUNE SPORTS</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>🏆 Torneos con propósito</h3>
+          <p>Eventos deportivos que generan impacto real.</p>
+        </div>
+        <div class="feature">
+          <h3>🌍 Impacto social</h3>
+          <p>El deporte como herramienta de transformación.</p>
+        </div>
+        <div class="feature">
+          <h3>🤝 Colaboración</h3>
+          <p>Trabajamos con entidades, sponsors y comunidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TORNEOS -->
+  <section id="torneos" class="section">
+    <div class="container">
+      <h2>Torneos destacados</h2>
+      <div class="cards">
+        <!-- Tarjetas de ejemplo -->
+        <div class="card">
+          <img src="assets/images/torneo1.jpg" alt="Torneo 1">
+          <h3>Torneo Social 2025</h3>
+          <p>Madrid, España</p>
+          <a href="#torneo1" class="btn-secondary">Ver torneo</a>
+        </div>
+        <div class="card">
+          <img src="assets/images/torneo2.jpg" alt="Torneo 2">
+          <h3>Copa Inclusiva 2025</h3>
+          <p>Barcelona, España</p>
+          <a href="#torneo2" class="btn-secondary">Ver torneo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATROCINADORES -->
+  <section id="patrocinadores" class="section bg-light">
+    <div class="container">
+      <h2>Nuestros patrocinadores</h2>
+      <div class="sponsors">
+        <img src="assets/images/logo1.png" alt="Sponsor 1">
+        <img src="assets/images/logo2.png" alt="Sponsor 2">
+        <img src="assets/images/logo3.png" alt="Sponsor 3">
+      </div>
+      <p>Empresas y entidades que confían en FUNE SPORTS.</p>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <section id="equipo" class="section">
+    <div class="container">
+      <h2>Nuestro equipo</h2>
+      <div class="team">
+        <div class="member">
+          <img src="assets/images/miembro1.jpg" alt="Miembro 1">
+          <h3>Juan Pérez</h3>
+          <p>Fundador & Director</p>
+        </div>
+        <div class="member">
+          <img src="assets/images/miembro2.jpg" alt="Miembro 2">
+          <h3>Ana López</h3>
+          <p>Coordinadora de torneos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA REGISTRO -->
+  <section id="registro" class="section cta">
+    <div class="container">
+      <h2>Únete a FUNE SPORTS y forma parte del cambio a través del deporte</h2>
+      <a href="#registro-form" class="btn-primary btn-large">Regístrate ahora</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <p>FUNE SPORTS © 2026</p>
+      <ul class="footer-menu">
+        <li><a href="#proyecto">Proyecto</a></li>
+        <li><a href="#torneos">Torneos</a></li>
+        <li><a href="#patrocinadores">Patrocinadores</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
+
